@@ -1,0 +1,26 @@
+*
+{
+	margin: 0;
+	padding:0;
+	border:none;
+	font-family: arial;
+}
+
+body
+{
+	width:250px;
+	margin:auto;
+}
+
+img
+{
+	width:200px;
+  margin-bottom: -4px;
+  object-fit: contain;
+}
+
+
+div
+{
+	text-align: center;
+}

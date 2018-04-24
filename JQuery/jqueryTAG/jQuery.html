@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <title>Tag Testing</title>
+		<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+   
+   	<script src = "jquerytag1.js">
+   	</script>
+
+  <style>
+  #box_down, #box_fade {
+    background: blue;
+    margin: 3px;
+    width: 250px;
+    height: 40px;
+    display: none;
+    
+  }
+  #box_up, #box_toggle, #box_fade_out {
+    background: blue;
+    margin: 3px;
+    width: 250px;
+    height: 40px;
+
+    
+  }
+
+  .selected {
+    color: red;
+  }
+  .highlight {
+    background: yellow;
+  }
+  </style>
+
+
+  </head>
+  <body>
+  		
+  	<div>
+  		<h1 id= "change_click">Click It To Change.</h1>
+  	<button id = "change_button">Click It</button>
+  	<p>Click the button for change.</p>
+  	</div>
+
+  	<div>
+  		<h1 id= "hiding">Hide Me  </h1>
+  		<button id = "hide_button">Hiding</button>
+  		<p>Click the button for Hiding.</p>
+  	</div>
+
+  	<div>
+  		<h1>Show Another Me  </h1>
+  		<h1 id= "showing" hidden="yes">Show Another Me  </h1>
+  		<button id = "show_button">Show</button>
+  		<p>Click the button for reveal hidden.</p>
+  	</div>
+
+  	<div>
+  		<h1 class ="toggling">Toggle It</h1>
+  		<h1 class ="toggling" style= "display:none">Me Been Toggle </h1>
+
+  		<button id = "toggle_button">Toggle Me</button>
+  		<p>Click the button for Toggle Effect.</p>
+  	</div>
+
+  	<div>
+  		<h1>Sliding Down</h1>
+ 			  <div id = "box_down">
+ 			  </div>
+
+  		<button id = "slidingd_button">Sliding Down</button>
+  		<p>Click the button for something sliding down.</p>
+  	</div>
+
+  	<div>
+  		<h1>Sliding Up</h1>
+ 			  <div id = "box_up">
+ 			  </div>
+
+  		<button id = "sliding_up_button">Sliding Up</button>
+  		<p>Click the button for something sliding Up.</p>
+  	</div>
+
+   	<div>
+  		<h1>Sliding Toggle</h1>
+ 			  <div id = "box_toggle">
+ 			  </div>
+
+  		<button id = "sliding_toggle_button">Toggle the Slide</button>
+  		<p>Click the button for something Toggle the slide.</p>
+  	</div>
+
+  	<div>
+  		<h1>Fade In</h1>
+ 			  <div id = "box_fade">
+ 			  </div>
+
+  		<button id = "fade_button">Fade In</button>
+  		<p>Click the button for something Fade In.</p>
+  	</div>
+
+
+  	<div>
+  		<h1>Fade Out</h1>
+ 			  <div id = "box_fade_out">
+ 			  </div>
+
+  		<button id = "fade_out_button">Fade Out</button>
+  		<p>Click the button for something Fade Out.</p>
+  	</div>
+
+  	<div>
+  		<h1 >Add Class</h1>
+  		<p class = "add_class1">I Add Class</p>
+ 			<p class = "add_class1">I Add Class</p>
+
+  		<button id = "add_class_button">Add Class</button>
+  		<p>Click the button for something Add Class.</p>
+  	</div>
+
+  	<div>
+  		<h1 >Add Before</h1>
+  		<p id = "add_me_before">Where are you adding my friend</p>
+ 	
+  		<button id = "before_button">Add Before</button>
+  		<p>Click the button for something add before line.</p>
+  	</div>
+
+  	<div>
+  		<h1 >Add After</h1>
+  		<p id = "add_me_after">Where are you adding my friend</p>
+ 	
+  		<button id = "after_button">Add After</button>
+  		<p>Click the button for something add After line.</p>
+  	</div>
+
+  	 <div>
+  		<h1 >Append: add at end of Paragraph</h1>
+  		<p id = "add_append">Where are you adding my friend</p>
+ 	
+  		<button id = "append_button">Append Me</button>
+  		<p>Click the button for something add at the end of paragraph.</p>
+  	</div>
+
+
+
+  	<div>
+  		<h1>Html</h1>
+  		<h2 id = "html_mod1">ahhhh don't change me</h2>
+ 	
+  		<button id = "html_mod_button">Html change me</button>
+  		<p>Click the button to modify html tag</p>
+  	</div>
+
+  	<div>
+  		<h1>Attribute</h1>
+  		<h4 ><em id = "attr_mod1" title="BOOOOOOOO">What does the ghost say.</em></h4>
+  		<h1 id = "booyah"></h1>
+ 	
+  		<button id = "attr_button">Attribute find</button>
+  		<p>Click the button to find the attribute ghost hide.</p>
+  	</div>
+
+  	<div>
+  		<h1>Get Value and Output Text</h1>
+  		<input id = "val_text" type="text" value ="Enter Text">
+  		<p id = "val_out_text"></p>
+ 	
+  		<p>Click the button input text it copy the value of it.</p>
+  	</div>
+
+  	<div>
+  		<h1>Hidden Data</h1>
+ 
+ 			<p id = "data_mod1">The data i hide <span id = "data1"></span> and <span id = "data2"></span></p>
+ 	
+  		<button id = "data_button">Data find</button>
+ 	
+  		<p>Click the button hidden data to show.</p>
+  	</div>
+
+  </body>
+</html>

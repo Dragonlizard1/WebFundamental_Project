@@ -1,0 +1,68 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+#square
+{
+	width: 140px;
+	height: 140px;
+	background: blue;
+	margin-top: 30px;
+
+}
+
+#circle 
+{
+  height: 140px;
+  width: 140px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-top: 30px;
+
+}
+
+#triangle
+{
+	width: 0px;
+	height: 0px;
+	margin-top: 30px;
+
+	border-left: 140px solid transparent;
+	border-right: 140px solid transparent;
+	border-bottom: 140px solid blue;
+}
+#container
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 30px;
+
+}
+
+#pacman
+{
+	margin:0;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#triangle_side
+{
+	margin: 0 0 0 100px;
+	width: 0px;
+	height: 0px;
+	background.color: pink;
+	border-top: 100px solid transparent;
+	border-right: 100px solid white;
+	border-bottom: 100px solid transparent;
+	display:inline-block;
+	vertical-align: top;
+
+}

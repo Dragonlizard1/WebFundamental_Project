@@ -1,0 +1,48 @@
+<h1>test</h1>
+
+
+<script>
+var x= 0;
+var y=0;
+var xFour=0;
+var compFour = 0;
+var xFourHun = 0;
+var compHun = 0;
+var xHun = 0;
+var year = 104;
+
+y = year /4;
+x = Math.round(y);
+
+if (x != y)
+{
+	console.log("It is not a leap year");
+}
+else 
+	{
+		compFour = year /400;
+		xFour = Math.round(compFour);
+		if (xFour==compFour)
+		{
+			console.log ("It is a Leap Year");
+		}
+		else
+		{
+			compHun = year/100;
+			xHun = Math.round(compHun);
+			if (xHun == compHun)
+			{
+				console.log ("It is not a Leap Year");
+			}
+			else
+				console.log ("It is a Leap Year");
+
+
+		}
+
+
+	}
+
+
+
+</script>

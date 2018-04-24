@@ -1,0 +1,188 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+body
+{
+	width: 970px;
+	margin: auto;
+}
+
+body div:first-child
+{
+	padding: 25px;
+	background-color: #D6D1B1;
+	display: inline-block;
+}
+
+header
+{
+	background-color: #3FB0AC
+}
+
+img
+{
+	width: 50px;
+	padding: 5px 10px 0 10px;
+	display: inline-block;
+	margin: 2px 0 0 0;
+}
+
+h1
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 0 0;
+}
+
+header p a
+{
+	padding-right: 5px;
+	color: white;
+	font-size: 10px;
+}
+
+header p
+{
+	display: inline-block;
+	margin: 25px 0 0 145px;
+	padding: 0;
+	vertical-align: top;
+	text-align: right;
+}
+
+
+
+div div
+{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #173F43;
+	color:white;
+	padding: 20px;
+}
+
+
+#main_content
+{
+	vertical-align: top;
+	display: inline-block;
+	background-color: #FAE596;
+	padding: 20px;
+	margin-top: 20px;
+	width:880px;
+	
+}
+
+#main_content div:first-child
+{
+width: 230px;
+height: 445px;
+padding: 5px;
+margin-right: 20px;
+background-color: #173F43;
+display: inline-block;
+}
+
+#three_content
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 565px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+#three_content div
+{
+	display: inline-block;
+	text-align: left;
+	
+}
+
+#three_content div:first-child
+{
+	width:150px;
+	height:150px;
+	margin:0;
+
+}
+#three_content div:nth-child(2)
+{
+	width:150px;
+	height:150px;
+	margin-left: 27px;
+	margin-right: 27px;
+}
+#three_content div:nth-child(3)
+{
+	width:150px;
+	height:150px;
+	margin:0 20px 0 0 ;
+}
+#three_content div:nth-child(4)
+{
+	width:250px;
+	height:100px;
+	margin-top:20px;
+	margin-right: 31px
+}
+#three_content div:nth-child(5)
+{
+	width:250px;
+	height:100px;
+	margin-top:20px;
+	
+}
+#three_content div:nth-child(6)
+{
+	width:555px;
+	height:100px;
+	margin-top:20px;
+}
+
+footer
+{
+	
+	height: 50px;
+	margin-top: 10px;
+	background-color: #3FB0AC;
+	text-align: center;
+	vertical-align: center;
+}
+
+footer p 
+{
+	padding: 15px 0 0 0 ;
+}
+
+span
+{
+	color: #;
+}
+
+h3
+{
+	padding: 10px 0 10px 5px;
+	font-size: 16px;
+}
+
+h2
+{
+	padding: 10px 0 10px 5px;
+	font-size: 20px;
+}
+
+p
+{
+	font-size: 13px;
+	padding: 0 15px 10px 15px;
+}
+
+span
+{
+	color:#3FB0AC;
+}

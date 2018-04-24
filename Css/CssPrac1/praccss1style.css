@@ -1,0 +1,46 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#whole{
+ width: 900px;
+ background-color: silver;
+ margin: 0px auto;
+}
+#header{
+ height: 150px;
+ background-color: #FF77CD;
+}
+#nav{
+ height: 300px;
+ width: 180px;
+ background-color: black;
+ display: block;
+}
+#maincontent{
+ height: 300px;
+ width: 650px;
+ background-color: blue;
+ 
+}
+.leftcontents{
+ height: 200px;
+ width: 180px;
+ background-color: silver;
+ display: inline;
+}
+.midcontents{
+ height: 200px;
+ width: 180px;
+ background-color: silver;
+}
+.rightcontents{
+ height: 200px;
+ width: 180px;
+ background-color: silver;
+}
+#bottom1{
+ height: 220px;
+ width: 850px;
+ background-color: maroon;
+}

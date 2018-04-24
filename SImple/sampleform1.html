@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="my_css_file.css">
+  <script src="my_javascript_library.js"></script>
+  <script src="another_javascript_file.js"></script>
+</head>
+<body>
+  <form>
+      <p>My Registration Form</p>
+      <p>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+      </p>
+
+      <p>
+        <label for="last_name">Last Name: </label>
+        <input type="text" id="last_name" name="last_name">
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+      </p>
+
+      <p>Select your gender:</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+
+      <p>
+        <label for="Birthday">Birthday</label>
+        <input type:"date" id="Birthday" name="Birthday">
+        <img src="images/cal.gif" width="16" height="16" border="0" alt="Pick a date"></a>
+      </p>
+
+      <p>A short description of yourself: </br>
+        <textarea name="description"></textarea>
+      </p>
+
+      <p>
+        <label for="Favorite">What is your favorite language?</label>
+        <select name="Favorite">
+          <option value="Ruby">Ruby</option>
+          <option value="Python">Python</option>
+          <option value="Javascript">Javascript</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </p>
+
+      <p>
+        <label for="pw_confirm">Password Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+      </p>
+
+      <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
